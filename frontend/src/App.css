@@ -1,0 +1,37 @@
+
+.mx{
+  margin-left: 40% !important;
+}
+
+.auto{
+  margin-left: 30% !important;
+}
+.navbar{
+  background-color: rgb(24, 101, 218) !important;
+  color: black;
+}.nav-item {
+  margin: 5px; /* Space between items */
+}
+
+.nav-item .nav-link {
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  color: black; /* Default text color */
+}
+
+.nav-item .nav-link:hover {
+  background-color: lightgray; /* Hover effect */
+  color: blue;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.active .nav-link {
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0) !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* contact */
